@@ -1,6 +1,6 @@
 if(SERVER) then
 	function roll(ply, text, public)
-		if(string.StartWith(text, "!rolls") or string.StartWith(text, "/rolls")) then
+		if(string.StartWith(text, "!testroll") or string.StartWith(text, "/testroll")) then
 			local Return = string.format("Vous avez obtenue %s", math.random( 1, 100))
 			local ReturnAll = string.format("%s a obtenue %s", ply:Name(), math.random( 1, 100))
 
