@@ -7,7 +7,7 @@ if(SERVER) then
 			ply:PrintMessage(4, Return)
 			ply:ChatPrint(Return)
 			
-			ply:ChatPrint(string.format("Tu est a %s de distance de %s par rapport a toi qui a %s et %s", ply:GetLocalPos():Distance(v:GetLocalPos()), ply:Name(), v:GetLocalPos(), ply:GetLocalPos()))
+			--ply:ChatPrint(string.format("Tu est a %s de distance de %s par rapport a toi qui a %s et %s", ply:GetLocalPos():Distance(v:GetLocalPos()), ply:Name(), v:GetLocalPos(), ply:GetLocalPos()))
 	
 			for k, v in pairs(player.GetAll()) do
 				--if (v:Alive() and !v:Name() == ply:Name()) then
